@@ -1,0 +1,35 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/drawable/backgroundcolorofcardview.xml" value="0.102" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/drawable/ic_baseline_photo_24.xml" value="0.253" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/drawable/solidborder.xml" value="0.2085" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/drawable/spinnerbackground.xml" value="0.2345" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/activity_aadhar_crop.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/activity_adhar_card_print.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/activity_doccument_editing_section.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/activity_join_photo.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/activity_passbook_edit.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/activity_passport_size_photo.xml" value="0.2981366459627329" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/filepaths.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/layout/myitem.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.199" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.199" />
+        <entry key="..\:/Users/Rajnish/AndroidStudioProjects/PhotoPrints/app/src/main/res/xml/filepaths.xml" value="0.32447916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.0673404927353127" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

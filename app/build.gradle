@@ -1,0 +1,93 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 34
+
+
+    defaultConfig {
+        applicationId "com.rajnish.photoprints"
+        minSdk 24
+        targetSdk 34
+        versionCode 7
+        versionName "6.0.1"
+        multiDexEnabled true
+
+
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+    namespace 'com.rajnish.photoprints'
+    kotlinOptions {
+        jvmTarget = "1.8" // Set the Java version to the desired target, e.g., "1.8"
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    dependencies {
+        implementation 'androidx.core:core-splashscreen:1.0.1'
+
+        implementation 'androidx.appcompat:appcompat:1.6.1'
+        implementation 'com.google.android.material:material:1.11.0'
+        implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+        testImplementation 'junit:junit:4.13.2'
+        androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+        androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+        implementation 'com.github.dhaval2404:imagepicker:2.1'
+        implementation 'com.github.zomato:androidphotofilters:1.0.2'
+        implementation 'com.google.android.gms:play-services-ads:22.6.0'
+        implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+        // in app update
+        implementation 'com.google.android.play:app-update:2.1.0'
+        implementation 'com.google.android.play:app-update-ktx:2.1.0'
+
+        // in app rating
+        implementation 'com.google.android.play:review:2.0.1'
+        implementation 'com.google.android.play:review-ktx:2.0.1'
+
+        implementation 'com.android.support:multidex:2.0.1'
+        implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
+        implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+
+        implementation "com.android.billingclient:billing:6.1.0"
+        implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+        implementation 'com.google.guava:guava:31.1-jre'
+
+        implementation 'com.tom-roush:pdfbox-android:2.0.27.0'
+        implementation 'io.github.ParkSangGwon:tedimagepicker:1.4.2'
+        implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+        implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+
+        
+
+
+
+
+    }
+
+}

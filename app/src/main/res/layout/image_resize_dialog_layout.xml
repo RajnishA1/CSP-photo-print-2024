@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <ImageView
+            android:id="@+id/imgCross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/done"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/themeColor"
+            android:textSize="16sp"
+            android:src="@drawable/close_icon"
+            android:layout_gravity="end"
+            android:contentDescription="@string/no" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="250dp"
+            android:src="@drawable/defaultimage"
+            android:contentDescription="@string/your_image" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_image_text"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/save"
+                android:backgroundTint="@color/themeColor"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:layout_marginEnd="5dp"
+            />
+
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/shar"
+                android:backgroundTint="@color/themeColor"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+
+</LinearLayout>

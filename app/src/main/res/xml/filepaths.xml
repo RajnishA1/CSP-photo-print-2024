@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+   <cache-path
+       name="share_images"
+       path="."/>
+    <external-path
+        name="saved_images"
+        path="."/>
+    <files-path
+        name="cathpath"
+        path="."/>
+    <external-files-path
+        name="external_file-path"
+        path="."/>
+    <external-media-path
+        name="External_mediapath"
+        path="."/>
+    <external-files-path name="pdfs" path="PDFs/" />
+
+</paths>

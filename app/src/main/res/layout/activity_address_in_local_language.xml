@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbarThumbVertical="@null"
+    tools:context=".AddressInLocalLanguage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10sp"
+            android:paddingBottom="10dp"
+            android:text="@string/address_in_local_language"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/HiNameEd"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/nameinhindi"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text|textAutoCorrect|textCapSentences"
+            app:endIconMode="clear_text"
+            app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/HiName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|textAutoCorrect|textCapSentences"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/HiFatherNameEd"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/pitapati"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text|textAutoCorrect|textCapSentences"
+            app:endIconMode="clear_text"
+            app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/HiFatherName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|textAutoCorrect|textCapSentences"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/HiHouseNumberEd"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/makan"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text|textAutoCorrect|textCapSentences"
+            app:endIconMode="clear_text"
+            app:startIconDrawable="@drawable/baseline_other_houses_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/HiHouseNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|textAutoCorrect|textCapSentences"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/HiGaliLocalityEd"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/galisthangram"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text|textAutoCorrect|textCapSentences"
+            app:endIconMode="clear_text"
+            app:startIconDrawable="@drawable/baseline_add_location_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/HiGaliLocality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|textAutoCorrect|textCapSentences"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/HiPoliceStationEd"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/ps_b_dist"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text|textAutoCorrect|textCapSentences"
+            app:endIconMode="clear_text"
+            app:startIconDrawable="@drawable/baseline_add_location_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/HiPoliceStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|textAutoCorrect|textCapSentences"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Hi_DistrictEd"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/district_hi"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text|textAutoCorrect|textCapSentences"
+            app:endIconMode="clear_text"
+            app:startIconDrawable="@drawable/baseline_local_police_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Hi_District"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|textAutoCorrect|textCapSentences"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:icon="@drawable/previous"
+                android:padding="10dp"
+                android:text="@string/previous"
+
+                />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+                android:padding="10dp"
+                android:text="@string/nextBtn"
+                tools:ignore="RelativeOverlap" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

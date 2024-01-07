@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">Photo Print</string>
+    <string name="passport_size_photo">Passport Size\n Photo</string>
+    <string name="aadhaarcard_print">Aadhaar Card \nPrint</string>
+    <string name="front_side">Front Side</string>
+    <string name="back_side">Back Side</string>
+    <string name="print_preview">Print Preview</string>
+    <string name="create_photo">Create Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="print">Print</string>
+    <string name="passbook_print">Passbook \n print</string>
+    <string name="camera">Camera</string>
+    <string name="presonal_detail">Presonal Detail</string>
+    <string name="in_english">In english</string>
+    <string name="name">Name</string>
+    <string name="birth_day_i_e_01_01_2000">Birth day i.e 01/01/2000</string>
+    <string name="aadhar_number">Aadhar Number</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="father_name">S/O, W/O, D/O + Father\'s / Husband Name</string>
+    <string name="female">Female</string>
+    <string name="next">Next</string>
+    <string name="personal_detail">Personal details (In English)</string>
+    <string name="choose_passbook">Choose Passbook</string>
+    <string name="photo_png">photo.png</string>
+    <string name="signature_png">signature.png</string>
+    <string name="edit">Edit</string>
+    <string name="choose_image">Choose Photo</string>
+    <string name="share">Print</string>
+    <string name="aadhaar_manual_print">Manual Aadhaar\n Print</string>
+    <string name="address_in_local_language">Address (In Local Language)</string>
+    <string name="pitapati">पुत्र / पुत्री / अर्धांगिनी + पिता / पति का नाम</string>
+    <string name="putra">पुत्र</string>
+    <string name="makan">माकन न / वार्ड नं</string>
+    <string name="nameinhindi">नाम</string>
+    <string name="jila">ज़िला</string>
+    <string name="rajya">राज्य</string>
+    <string name="nextBtn">Next</string>
+    <string name="previous">Previous</string>
+    <string name="galisthangram">गली / स्थान / ग्राम</string>
+    <string name="postoffice">पोस्ट ऑफिस</string>
+    <string name="address">Address (In English)</string>
+    <string name="s_o">S/O</string>
+    <string name="house_no_ward_no">House no/Ward no</string>
+    <string name="gali_locality_village">Gali/Locality/Village</string>
+    <string name="post_office">Post office + Tahshil(Block)</string>
+    <string name="district">District</string>
+    <string name="state">District + State + Pin code(zip code)</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="doccument_print_section">Document Print Section</string>
+    <string name="photo_print">Photo Print</string>
+    <string name="coins_as_of_now">Coins (as of now)</string>
+    <string name="buy_point">Buy Point</string>
+    <string name="get_coins">View this ad to print</string>
+    <string name="watch_ad">View this ad to Receive  \n5 gold coins </string>
+    <string name="buy">buy</string>
+    <string name="terms">CSP Photo Print now offers the ability to purchase Coins, a virtual currency within the app, to skip advertisements. By purchasing Coins, you agree to the terms and conditions outlined in this document, including the non-refundable nature of Coin purchases, the limited use of Coins to only skip advertisements within the app, and the forfeiture of any unused Coins in the event of uninstallation of the app or termination of the Coin service by CSP Photo Print. Please read the full terms and conditions for additional information.</string>
+    <string name="_250_coins">250 Coins</string>
+    <string name="rs_60">Rs 60</string>
+    <string name="rs_30">Rs 30</string>
+    <string name="_400_coins">500 Coins</string>
+    <string name="_100_coins">100 Coins</string>
+    <string name="update_to_premium">Update To premium</string>
+    <string name="description">Description</string>
+    <string name="hide_image_button">Hide image button</string>
+    <string name="help_icon">help icon</string>
+    <string name="coin_icon">coin icon</string>
+    <string name="back_to_main_main_activity">back to main  activity</string>
+    <string name="person_icon">person icon</string>
+    <string name="person_icon_for_adhar">person icon for adhar</string>
+    <string name="passbook_icon">passbook icon</string>
+    <string name="passbook_icon_for_image">passbook icon for image</string>
+    <string name="insufficient_coins">Insufficient Coins</string>
+    <string name="buy_coins">Buy Coins</string>
+    <string name="quote_dialog_layout">Upgrade Your Experience - Buy Coins and Say Goodbye to Ads!</string>
+    <string name="title_activity_slpace_screen">SlpaceScreen</string>
+
+
+    <string name="manual_voter_card_print">Manual Voter Card Print</string>
+    <string name="nation_voters_website_link">
+     <a href="https://electoralsearch.eci.gov.in/#!#resultArea">Nation Voters website link</a>
+
+    </string>
+    <string name="tahshil">Tahshil (Block)</string>
+    <string name="tahshilInHIndi">तहसील (प्रखंड) + ज़िला + राज्य</string>
+    <string name="part_number">Part Number</string>
+    <string name="assembly_constituency_number_and_name">Assembly Constituency Number and Name</string>
+    <string name="retation">Retation</string>
+    <string name="father">Father</string>
+    <string name="husband">Husband</string>
+    <string name="how_can_we_help_n_you">How can we help \n you?</string>
+    <string name="how_to_make_passport_size_photo"><a href="https://www.youtube.com/watch?v=IxxNZWQ-bAc&amp;t=1s">How to make passport size photo ?</a></string>
+    <string name="what_is_the_use_of_manual_aadhar_print_services_and_how_to_use"><a href="https://www.youtube.com/watch?v=E8MEDmGH-Qw">What is the use of manual aadhar print services and how to use ?</a></string>
+    <string name="how_to_make_voter_id_card_with_manual_voter_print_service"><a href="https://www.youtube.com/watch?v=0dZ5zK6G9Kc">How to make voter id card with manual voter print service ?</a></string>
+    <string name="terms_and_condition"><a href="https://pages.flycricket.io/csp-photo-print/privacy.html">Terms and Condition</a></string>
+    <string name="manual_pan_card_n_print">Manual Pan Card \n print</string>
+    <string name="choose_signature">Choose Signature</string>
+    <string name="nsdl">NSDL</string>
+    <string name="format">Format</string>
+    <string name="UTIITSL">UTIITSL</string>
+    <string name="itd">ITD</string>
+
+    <string name="termsAndCondition">
+
+            Terms and Conditions (Short Version):
+            Welcome to the CSP Photo and Aadhaar Print App. By using the App, you agree to these terms:
+        \n1. Use the App only for lawful purposes and don\'t interfere with its proper working.
+        \n2. The developer and owner of the App are not responsible for any misuse of the facility to print sensitive documents manually.
+        \n3. The accuracy of the information provided is your responsibility.
+        \n4. The App and its content are protected by intellectual property laws.
+        \n5. The App and its content are provided "as is" and without any warranties.
+        \n6. The developer and owner of the App are not liable for any damages arising out of or in connection with the use of the App.
+        \n7. You agree to indemnify, defend and hold harmless the developer and owner of the App.
+        \n8. These terms are governed by the laws of India and any dispute will be subject to the exclusive jurisdiction of Indian courts.
+        \n9. The developer and owner of the App can modify these terms and conditions at any time without prior notice.
+        \n10. app is only provide service we do not create any document of any correction made by this app will not valid .
+
+
+        \n1 ऐप का उपयोग केवल वैध उद्देश्यों के लिए करें और उसके सही काम को अवरुद्ध न करें।.
+        \n2 ऐप के उपयोग से संबंधित संवेदनशील दस्तावेजों को मैन्युअल रूप से प्रिंट करने की सुविधा का दुरुपयोग किया जाना संभव है, इसके लिए ऐप के डेवलपर और मालिक ज़िम्मेदार नहीं होंगे।.
+        \n3 प्रदान की गई जानकारी की सटीकता आपकी ज़िम्मेदारी है।
+        \n4 ऐप का उपयोग करने से उत्पन्न किसी भी नुकसान से संबंधित डेवलपर और मालिक ज़िम्मेदार नहीं होंगे।
+
+
+    </string>
+
+    <string name="adharCardQrCodeTerms">The generated Aadhaar card is based on manually entered data and may not exactly match the Aadhaar card database. It is provided for informational purposes only and should not be considered an official document or a replacement for the original UIDAI-issued Aadhaar card.    </string>
+    <string name="i_have_read_the_terms_and_conditions_and_i_agree">I have read the terms and conditions and I agree.</string>
+    <string name="ok">OK</string>
+    <string name="save">save</string>
+    <string name="shar">share</string>
+    <string name="compressed_image" />
+    <string name="compression_level">compression level</string>
+    <string name="original_image">original image</string>
+    <string name="Image_Manipulation_Toolkit">Image Manipulation Toolkit</string>
+    <string name="Image_compressor">Image Compressor</string>
+    <string name="resize_image">Image Resizer</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="x">X</string>
+    <string name="no">no</string>
+    <string name="dpi">DPI</string>
+    <string name="create">Create</string>
+    <string name="choose_pdf">Choose PDF</string>
+    <string name="download_all">download all</string>
+    <string name="jpg_to_pdf">JPG TO PDF</string>
+    <string name="done">Done</string>
+    <string name="your_image">Your Image</string>
+    <string name="your_image_text">Your Image Text</string>
+    <string name="click_here_choose_image">Select Multiple images</string>
+    <string name="browse_file_to_upload">Browse file to Upload</string>
+    <string name="save_pdf">Save PDF</string>
+    <string name="share_pdf">Share PDF</string>
+    <string name="part_name">Part Name</string>
+    <string name="name_print_on_card">Name Print On Card</string>
+    <string name="vidhan_sabha">विधानसभा निर्वाचन क्षेत्र संख्या और नाम</string>
+    <string name="bhagya_ka_name">भाग का नाम</string>
+    <string name="ps_b_dist">थाना + प्रखंड </string>
+    <string name="district_hi">जिला + राज्य + पिन कोड </string>
+    <string name="issue_date">Issue Date (optional)</string>
+    <string name="download_date">Download Date (optional)</string>
+
+    <string-array name="image_formats">
+        <item>JPG</item>
+        <item>PNG</item>
+        <item>PDF</item>
+    </string-array>
+
+
+</resources>
